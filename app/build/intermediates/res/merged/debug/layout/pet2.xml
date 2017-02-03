@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pets"
+    android:gravity="center"
+    tools:ignore="ContentDescription" >
+
+    <ImageView
+        android:id="@+id/pback2"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/phome2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/sheeppic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/sheep" />
+
+    <ImageView
+        android:id="@+id/rabbitpic"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/goatpic"
+        android:layout_marginBottom="29dp"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/phome2"
+        android:src="@drawable/rabbit" />
+
+    <ImageView
+        android:id="@+id/goatpic"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/sheeppic"
+        android:layout_marginLeft="52dp"
+        android:layout_toRightOf="@+id/sheeppic"
+        android:src="@drawable/goat" />
+
+    <ImageView
+        android:id="@+id/ratpic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/rabbitpic"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="85dp"
+        android:src="@drawable/ratpic" />
+
+</RelativeLayout>

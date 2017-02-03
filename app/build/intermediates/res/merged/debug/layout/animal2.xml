@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/birdsbg"
+    android:gravity="center"
+    tools:ignore="ContentDescription" >
+
+    <ImageView
+        android:id="@+id/aback2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/ahome2"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/pandapic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/monkeypic"
+        android:layout_marginRight="96dp"
+        android:layout_toLeftOf="@+id/ahome2"
+        android:src="@drawable/panda" />
+
+    <ImageView
+        android:id="@+id/monkeypic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/pandapic"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="36dp"
+        android:src="@drawable/monkey" />
+
+<!--     <ImageView -->
+<!--         android:id="@+id/elephantpic" -->
+<!--         android:layout_width="100dp" -->
+<!--         android:layout_height="100dp" -->
+<!--         android:layout_above="@+id/monkeypic" -->
+<!--         android:layout_marginLeft="20dp" -->
+<!--         android:layout_toRightOf="@+id/monkeypic" -->
+<!--         android:src="@drawable/elephant" /> -->
+
+    <ImageView
+        android:id="@+id/elephantpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/pandapic"
+        android:src="@drawable/elephant" />
+
+</RelativeLayout>

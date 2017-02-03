@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pets"
+    tools:ignore="ContentDescription" >
+
+    
+   
+    
+    
+    
+    
+    <ImageView
+        android:id="@+id/dogpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/phome1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/pnext1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/nextarrow" />
+
+    <ImageView
+        android:id="@+id/cowpic"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/catpic"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/catpic"
+        android:src="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/catpic"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="53dp"
+        android:layout_marginRight="63dp"
+        android:src="@drawable/cat" />
+
+    
+</RelativeLayout>

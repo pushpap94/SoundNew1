@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/indexbg"
+    android:gravity="center_horizontal"
+    tools:context="com.soundnew.MainActivity"
+    tools:ignore="ContentDescription" >
+
+<!--    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:id="@+id/pager" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content"> -->
+<!--    </android.support.v4.view.ViewPager> -->
+
+    <ImageView
+        android:id="@+id/petsindex"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/birdsindex"
+        android:layout_marginLeft="48dp"
+        android:src="@drawable/dogindx" />
+
+    <ImageView
+        android:id="@+id/animalindex"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/aindex"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:src="@drawable/elephantindx" />
+
+    <ImageView
+        android:id="@+id/birdsindex"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/toucanindx" />
+
+    <ImageView
+        android:id="@+id/aindex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/petsindex"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/animindex" />
+
+    <ImageView
+        android:id="@+id/bindex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pindex"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/birdsindex" />
+
+    <ImageView
+        android:id="@+id/pindex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/aindex"
+        android:layout_alignLeft="@+id/petsindex"
+        android:src="@drawable/petsindex" />
+
+</RelativeLayout>

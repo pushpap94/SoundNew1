@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1380c5c00e26b5ff9785542bfee66cef7fc21325">
+        <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d99b3c52bc86961be0295e8f8eb8a0c1d08a2ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="daff11d982a6448c59038eeaa6097435322d68b6">
+        <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2e9c28b33bb0e6a7a94e82eddc8eb81afaa9c21a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-18.0.0_91f5c31930175b7860fe0f87febc4f6b571bd292\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/animal2"
+    android:gravity="center"
+    tools:ignore="ContentDescription,UnknownIdInLayout" >
+
+    <ImageView
+        android:id="@+id/bhome2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="26dp"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:id="@+id/canarypic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="33dp"
+        android:layout_toLeftOf="@+id/bhome2"
+        android:src="@drawable/canary" />
+
+    <ImageView
+        android:id="@+id/cockatielpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:layout_toRightOf="@+id/bback2"
+        android:src="@drawable/cockatiel" />
+
+    <ImageView
+        android:id="@+id/bback2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/muraipic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/cockatielpic"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/murai" />
+
+</RelativeLayout>

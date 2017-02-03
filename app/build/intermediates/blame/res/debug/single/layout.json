@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sample.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\sample.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bird1.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\bird1.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bird2.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\bird2.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\animal1.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\animal1.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pet1.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\pet1.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pet2.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\pet2.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_index.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\main_index.xml"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\animal2.xml",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\layout\\animal2.xml"
+    }
+]

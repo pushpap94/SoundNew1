@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/animal"
+    android:gravity="center"
+    tools:ignore="ContentDescription" >
+    <ImageView
+        android:id="@+id/wolfpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ahome1"
+        android:layout_marginLeft="74dp"
+        android:layout_toRightOf="@+id/tigerpic"
+        android:src="@drawable/wolf" />
+    <ImageView
+        android:id="@+id/ahome1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/home" />
+    <ImageView
+        android:id="@+id/anext1"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/nextarrow" />
+    <ImageView
+        android:id="@+id/lionpic"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/anext1"
+        android:src="@drawable/lion" />
+    <ImageView
+        android:id="@+id/tigerpic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/anext1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/tiger" />
+
+</RelativeLayout>

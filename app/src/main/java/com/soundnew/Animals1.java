@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class Animals1 extends Activity implements OnClickListener{
 	ImageView next,home,lion,wolf,tiger;
-	 MediaPlayer playercat = MediaPlayer.create(Animals1.this,R.raw.wolfsound),playercow,playerdog;
+ MediaPlayer lion_sound, wolf_sound, tiger_sound;
 	 private GestureDetectorCompat gestureDetectorCompat;
 	
 	@Override
@@ -55,22 +55,22 @@ public class Animals1 extends Activity implements OnClickListener{
 			Animation shake = AnimationUtils.loadAnimation(Animals1.this, R.anim.wave_scale);
       		findViewById(R.id.tigerpic).startAnimation(shake); 
 			Toast.makeText(getApplicationContext(), "TIGER", Toast.LENGTH_SHORT).show();
-	    	 playercat=MediaPlayer.create(Animals1.this,R.raw.tigersound);
-	    	 playercat.start();
+	    	 tiger_sound=MediaPlayer.create(Animals1.this,R.raw.tigersound);
+			tiger_sound.start();
 			break;
          case R.id.lionpic:
         	 Animation shake1 = AnimationUtils.loadAnimation(Animals1.this, R.anim.wave_scale);
 	      		findViewById(R.id.lionpic).startAnimation(shake1); 
         	 Toast.makeText(getApplicationContext(), "LION", Toast.LENGTH_SHORT).show();
-	    	 playercat=MediaPlayer.create(Animals1.this,R.raw.lionsound);
-	    	 playercat.start();
+	    	 lion_sound=MediaPlayer.create(Animals1.this,R.raw.lionsound);
+	    	 lion_sound.start();
 			break;
          case R.id.wolfpic:
         	 Animation shake2 = AnimationUtils.loadAnimation(Animals1.this, R.anim.wave_scale);
 	      		findViewById(R.id.wolfpic).startAnimation(shake2); 
         	 Toast.makeText(getApplicationContext(), "WOLF", Toast.LENGTH_SHORT).show();
-	    	 playercat=MediaPlayer.create(Animals1.this,R.raw.wolfsound);
-	    	 playercat.start();
+	    	 wolf_sound=MediaPlayer.create(Animals1.this,R.raw.wolfsound);
+	    	 wolf_sound.start();
 	break;
 	}
 	}

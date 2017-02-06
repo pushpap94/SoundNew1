@@ -21,22 +21,6 @@
         android:src="@drawable/dog" />
 
     <ImageView
-        android:id="@+id/phome1"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/home" />
-
-    <ImageView
-        android:id="@+id/pnext1"
-        android:layout_width="100dp"
-        android:layout_height="70dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/nextarrow" />
-
-    <ImageView
         android:id="@+id/cowpic"
         android:layout_width="100dp"
         android:layout_height="80dp"
@@ -55,5 +39,22 @@
         android:layout_marginRight="63dp"
         android:src="@drawable/cat" />
 
-    
+    <ImageView
+        android:id="@+id/pnext1"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/nextarrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/phome1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home32"
+        android:layout_marginLeft="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+
 </RelativeLayout>

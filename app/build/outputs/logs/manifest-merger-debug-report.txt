@@ -15,20 +15,10 @@ ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:2:1-47
 		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:2:11-69
-uses-sdk
-ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:7:5-9:41
-	android:targetSdkVersion
-		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:8:9-34
-		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
-		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
 application
 ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:11:5-45:19
 	android:label
-		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:14:9-47
 	android:allowBackup
 		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:12:9-35
 	android:icon
@@ -89,3 +79,11 @@ ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:41:13-
 		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:43:13-50
 	android:name
 		ADDED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml:42:13-35
+uses-sdk
+INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidWorkspace\SoundNew1\app\src\main\AndroidManifest.xml

@@ -4,14 +4,14 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="22" />
+    <!--<uses-sdk-->
+        <!--android:minSdkVersion="8"-->
+        <!--android:targetSdkVersion="25" />-->
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/appicon"
-        android:label="@string/app_name"
+        android:label="Animal Sounds For Kids"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"

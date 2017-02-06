@@ -63,7 +63,7 @@ public class Birds1 extends Activity implements OnClickListener{
         	 Animation shake1 = AnimationUtils.loadAnimation(Birds1.this, R.anim.wave_scale);
      		findViewById(R.id.sparrowpic).startAnimation(shake1);  
         	 Toast.makeText(getApplicationContext(), "SPARROW", Toast.LENGTH_SHORT).show();
-	    	 crowsound=MediaPlayer.create(Birds1.this,R.raw.sparrowsound);
+	    	 crowsound=MediaPlayer.create(Birds1.this,R.raw.sparrowso);
 	    	 crowsound.start();
 			break;
          case R.id.parrotpic:

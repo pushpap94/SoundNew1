@@ -21,7 +21,7 @@
         android:layout_height="50dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/home" />
+        android:src="@drawable/home32" />
 
     <ImageView
         android:id="@+id/sheeppic"

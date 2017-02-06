@@ -12,12 +12,12 @@
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\chimpanzeesound.wav"
     },
     {
-        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\catsounds.wav",
-        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\catsounds.wav"
-    },
-    {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\raccoonsound.wav",
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\raccoonsound.wav"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\catsounds.wav",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\catsounds.wav"
     },
     {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\wheeking.wav",
@@ -78,6 +78,10 @@
     {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\pandasound.wav",
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\pandasound.wav"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\sparrowso.mp3",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\raw\\sparrowso.mp3"
     },
     {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\raw\\dogsound.wav",

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="1380c5c00e26b5ff9785542bfee66cef7fc21325">
+        sha1="f70e2fc7530f808e3c2436a9e58979c743c371e4">
         <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2d99b3c52bc86961be0295e8f8eb8a0c1d08a2ab\classes.dex" />
     </item>
     <item
@@ -16,8 +16,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="daff11d982a6448c59038eeaa6097435322d68b6">
+        sha1="96a2d25a2b2e41f4b8e17ac77fe5289507787a50">
         <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2e9c28b33bb0e6a7a94e82eddc8eb81afaa9c21a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\AndroidWorkspace\SoundNew1\app\build\intermediates\pre-dexed\release\support-v4-18.0.0_91f5c31930175b7860fe0f87febc4f6b571bd292.jar" />
     </item>
     <item
         is-multidex="true"

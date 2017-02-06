@@ -21,27 +21,9 @@
         android:layout_height="80dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/home" />
+        android:src="@drawable/home32" />
 
-    <ImageView
-        android:id="@+id/pandapic"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_above="@+id/monkeypic"
-        android:layout_marginRight="96dp"
-        android:layout_toLeftOf="@+id/ahome2"
-        android:src="@drawable/panda" />
-
-    <ImageView
-        android:id="@+id/monkeypic"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/pandapic"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="36dp"
-        android:src="@drawable/monkey" />
-
-<!--     <ImageView -->
+    <!--     <ImageView -->
 <!--         android:id="@+id/elephantpic" -->
 <!--         android:layout_width="100dp" -->
 <!--         android:layout_height="100dp" -->
@@ -54,8 +36,27 @@
         android:id="@+id/elephantpic"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignParentRight="true"
+        android:src="@drawable/elephant"
         android:layout_alignTop="@+id/pandapic"
-        android:src="@drawable/elephant" />
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="18dp" />
+
+    <ImageView
+        android:id="@+id/pandapic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/panda"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/monkeypic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/monkey"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/pandapic"
+        android:layout_marginLeft="28dp" />
 
 </RelativeLayout>

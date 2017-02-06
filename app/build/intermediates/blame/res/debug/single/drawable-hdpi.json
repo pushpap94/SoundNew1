@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\homescreen.png",
-        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable-hdpi\\homescreen.png"
-    },
-    {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\home32.png",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable-hdpi\\home32.png"
     }
 ]

@@ -16,12 +16,12 @@
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable\\indexbg.jpg"
     },
     {
-        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cat.png",
-        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable\\cat.png"
-    },
-    {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\birdsbg.jpg",
         "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable\\birdsbg.jpg"
+    },
+    {
+        "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cat.png",
+        "source": "D:\\AndroidWorkspace\\SoundNew1\\app\\src\\main\\res\\drawable\\cat.png"
     },
     {
         "merged": "D:\\AndroidWorkspace\\SoundNew1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cow.png",

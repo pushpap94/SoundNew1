@@ -43,7 +43,7 @@ public final class R {
         public static final int elephantindx=0x7f02000f;
         public static final int goat=0x7f020010;
         public static final int home=0x7f020011;
-        public static final int homescreen=0x7f020012;
+        public static final int home32=0x7f020012;
         public static final int ic_launcher=0x7f020013;
         public static final int indexbg=0x7f020014;
         public static final int lion=0x7f020015;
@@ -67,35 +67,35 @@ public final class R {
         public static final int aback2=0x7f090005;
         public static final int ahome1=0x7f090001;
         public static final int ahome2=0x7f090006;
-        public static final int aindex=0x7f090017;
+        public static final int aindex=0x7f090019;
         public static final int anext1=0x7f090003;
-        public static final int animalindex=0x7f090016;
+        public static final int animalindex=0x7f090018;
         public static final int bback2=0x7f090012;
         public static final int bhome1=0x7f09000b;
         public static final int bhome2=0x7f09000f;
-        public static final int bindex=0x7f090018;
-        public static final int birdsindex=0x7f090015;
+        public static final int bindex=0x7f090016;
+        public static final int birdsindex=0x7f090014;
         public static final int bnext1=0x7f09000d;
         public static final int canarypic=0x7f090010;
-        public static final int catpic=0x7f09001e;
+        public static final int catpic=0x7f09001c;
         public static final int cockatielpic=0x7f090011;
-        public static final int cowpic=0x7f09001d;
+        public static final int cowpic=0x7f09001b;
         public static final int crowpic=0x7f09000c;
         public static final int dogpic=0x7f09001a;
-        public static final int elephantpic=0x7f090009;
+        public static final int elephantpic=0x7f090007;
         public static final int goatpic=0x7f090023;
         public static final int lionpic=0x7f090004;
-        public static final int monkeypic=0x7f090008;
+        public static final int monkeypic=0x7f090009;
         public static final int muraipic=0x7f090013;
         public static final int pager=0x7f090025;
-        public static final int pandapic=0x7f090007;
+        public static final int pandapic=0x7f090008;
         public static final int parrotpic=0x7f09000a;
         public static final int pback2=0x7f09001f;
-        public static final int petsindex=0x7f090014;
-        public static final int phome1=0x7f09001b;
+        public static final int petsindex=0x7f090017;
+        public static final int phome1=0x7f09001e;
         public static final int phome2=0x7f090020;
-        public static final int pindex=0x7f090019;
-        public static final int pnext1=0x7f09001c;
+        public static final int pindex=0x7f090015;
+        public static final int pnext1=0x7f09001d;
         public static final int rabbitpic=0x7f090022;
         public static final int ratpic=0x7f090024;
         public static final int sheeppic=0x7f090021;
@@ -136,10 +136,11 @@ public final class R {
         public static final int raccoonsound=0x7f050013;
         public static final int rat=0x7f050014;
         public static final int sheepound=0x7f050015;
-        public static final int sparrowsound=0x7f050016;
-        public static final int tigersound=0x7f050017;
-        public static final int wheeking=0x7f050018;
-        public static final int wolfsound=0x7f050019;
+        public static final int sparrowso=0x7f050016;
+        public static final int sparrowsound=0x7f050017;
+        public static final int tigersound=0x7f050018;
+        public static final int wheeking=0x7f050019;
+        public static final int wolfsound=0x7f05001a;
     }
     public static final class string {
         public static final int action_settings=0x7f080000;
@@ -149,15 +150,8 @@ public final class R {
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f060000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f060001;
     }
 }
